@@ -1,0 +1,129 @@
+.header-1{
+    background: #5e068a none repeat scroll 0 0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 12px;
+}
+.header-2{
+    justify-content: space-between;
+    padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 14px;
+}
+.header-2 img{
+    height: 4rem;
+}
+.header-2 .nav-item{
+    cursor: pointer;
+}
+.header-2 .nav-item:hover{
+    text-decoration: underline;
+}
+.about-us, .courses{
+    padding: 3rem 1rem 1rem;
+}
+.about-us h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    color: #5e068a;
+    font-weight: 700;
+    max-width: 540px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.about-us h4{
+    color: #5e068a99;
+    font-size: 14px;
+}
+.about-us p{
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    max-width: 565px;
+}
+.about-us button{
+    padding: 16px 27px;
+    font-weight: 600;
+    margin-top: 21px;
+    color: white;
+    border-radius: 50px;
+    border: 2px solid #5e068a;
+    background-color: #5e068a;
+}
+.courses{
+    background-color: #f5f5f5;
+}
+.courses>h3{
+    font-size: 32px;
+    padding-top: 0;
+    color: #5e068a;
+    font-weight: 700;
+    line-height: 1.2;
+   margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+.courses>h3 span{
+    color: #9e6ab9;
+}
+.card-1-row{
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.card-1-row:hover, .card-row>div:hover{
+    box-shadow: 0px 15px 34px rgb(173 173 173 / 42%);
+}
+.card-1-content h3{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #5e068a;
+    margin-top: 20px;
+}
+.card-1-content p{
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.card-row{
+    width: 85%;
+    margin-top: 2rem !important;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* .header{
+        font-size: 0.25rem;
+    } */
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* .header{
+        font-size: 0.75rem;
+    } */
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* .header{
+        font-size: 0.75rem;
+    } */
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* .header{
+        font-size: 0.75rem;
+    } */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* .header{
+        font-size: 0.75rem;
+    } */
+}
